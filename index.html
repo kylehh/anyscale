@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anyscale Endpoint Demo</title>
+</head>
+<body>
+    <h1>Demo Instructions</h1>
+    1. Select a picture <br>
+    2. Click "Start Recording"<br>
+    3. Verbally describe what you see in the picture<br>
+    4. "Stop Recording" when you are done<br>
+    5. Click on "Send to Anyscale" to process<br>
+    6. Wait to see what AI draws based on your description. <br>
+    <button id="selectButton">Select an picture</button>
+    <br>
+    <button id="startButton">Start Recording</button>
+    <button id="stopButton" disabled>Stop Recording</button>
+    <audio id="audioPlayer" controls></audio>
+    <br>
+    <button id="sendButton" disabled>Send to Anyscale</button>
+    <br>
+    <img id="origImage" src="https://i.insider.com/5ea6fd9dd553f808ba5bf897?width=700&format=jpeg&auto=webp" alt="Image Placeholder">
+    <br>
+    <img id="sdImage" src="anyscale.png" alt="Image Placeholder">
+    <script src="app.js"></script>
+</body>
+</html>
